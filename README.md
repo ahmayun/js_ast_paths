@@ -15,6 +15,7 @@ Setup
 Path-Extraction
 ---------------
 > ./make_paths <paths_to_js_files>
+
 This command will make a folder called ast_paths and follow the same folder heirachy as the dataset
 
 Examples
