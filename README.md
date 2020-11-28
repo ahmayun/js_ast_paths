@@ -1,4 +1,4 @@
-#Javascript AST Paths | SProj 21
+# Javascript AST Paths | SProj 21
 Requirements
 ------------
 * node.js
