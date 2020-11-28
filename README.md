@@ -15,9 +15,11 @@ Setup
 Path-Extraction
 ---------------
 > ./make_paths <paths_to_js_files>
+This command will make a folder called ast_paths and follow the same folder heirachy as the dataset
 
-> python extract_features.py --dir <training_dir> --max_path_length <max_length> --max_path_width <max_width> > training 2> out.err
+Examples
+---------------
+> ./make_paths ../dataset/jsinspect/Split_Archive0/data/100invest.ru/\*.js
 
-This command runs the nodeJS scripts using multiple processes (much faster for large datasets, when running on a machine with many cores).
-
+> ./make_paths ../dataset/jsinspect/Split_Archive0/data/\*/\*.js
 
